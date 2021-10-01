@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: #000;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+button{
+    background-color: #181717;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+header button p{
+    padding-left: 10px;
+}
+
+header button{
+    display: flex;
+    align-items: center;
+}
+
